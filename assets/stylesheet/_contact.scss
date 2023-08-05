@@ -1,0 +1,40 @@
+.hero-contact{
+    padding: 3rem 1.3rem;
+    background-image: linear-gradient(to right , rgba(0 , 0, 0, 1) , rgba(0 , 0, 0, 0.7));
+}
+.hero-contact h1{
+    color: $white;
+    font-size: 2.3rem;
+    padding-left: 2rem;
+    font-weight: 700;
+}
+.details{
+    padding: 3rem 2rem;
+}
+.details .flex-30{
+    padding: 2rem 2rem;
+background-color: $background-light;
+
+&:hover{
+    transform: scale(1.1);
+    box-shadow: 4px 4px 5px 8px rgba(0 , 0, 0, 0.7);
+}
+}
+.details .flex-30 p{
+padding: 0 1rem;
+color: $btn-background;
+}
+.details .flex-30 h3{
+padding: 1rem;
+color: $text-dark;
+}
+.details .flex-30 i{
+    color: rgb(155, 140, 59);
+    font-size: 1.2rem;
+    &:hover{
+        background-color: $text-dark;
+        padding: .4rem;
+        border-radius: 50%;
+        transform: scale(1.4);
+    }
+}

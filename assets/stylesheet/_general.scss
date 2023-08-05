@@ -1,0 +1,91 @@
+* ,
+*::before ,
+*::after{
+    box-sizing: border-box;
+}
+html{
+    font-size: 20px;
+}
+body{
+    line-height: 1.3;
+}
+.padding{
+    padding: 3rem 1rem;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 1rem 1rem;
+}
+.Container{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 1rem 1rem;
+}
+a{
+    text-decoration: none;
+}
+header{
+    padding: 1rem 2rem;
+    vertical-align: center;
+    background-color: $background-light;
+}
+.nav{
+    margin-top: 1rem;
+}
+header li a{
+    margin-right: 1rem;
+    color: $text-dark;
+}
+header li a:hover{
+    color: goldenrod;
+    padding: 1.1rem;
+}
+.brand a{
+    font-size: 2rem;
+    font-weight: 700;
+    color:rgb(38, 60, 18);
+}
+.brand strong{
+    font-size: 2.2rem;
+    font-weight: 900;
+    color: $btn-background;
+}
+strong{
+    color: $btn-background
+}
+.flex-50{
+    flex: 0 1 50%;
+}
+.flex-45{
+    flex: 0 1 45%;
+}
+.flex-30{
+    flex: 0 1 30%;
+}
+.flex-20{
+    flex: 0 1 20%;
+}
+h2{
+    font-size: 2.3rem;
+    color: $text-dark;
+    text-align: center;
+    font-weight: 700;
+    padding-bottom: 3rem;
+}
+p{
+    color: $text-light;
+    padding: 1rem 0;
+}
+h4{
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+blockquote{
+    color: $text-light;
+}

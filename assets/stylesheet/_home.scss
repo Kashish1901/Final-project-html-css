@@ -1,0 +1,172 @@
+.hero{
+    background: linear-gradient(to right, rgba(0, 0, 0, 1),rgba(0, 0, 0, 0.3)) , url(../media/testimonials-bg.jpg) 50% 50%;
+    background-size: cover;
+    padding: 4rem 5rem;
+}
+.hero h6{
+    color: $white;
+    font-size: 1.2rem;
+    padding: 2.2rem 1rem;
+}
+.hero h1{
+    font-size: 3rem;
+    padding: 1rem 1rem;
+    color: $white;
+}
+.sq-btn{
+    background-color: $btn-background;
+    color: $white;
+    border: 0;
+    padding: .8rem 1rem;
+    border-radius: 2rem;
+    margin: 1rem;
+    &:hover{
+        background-color: $white;
+        color: $btn-background;
+        border: 2px solid $btn-background;
+        transform: scale(1.1);
+    }
+}
+.quote input{
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: .3rem;
+    font-size: .8rem;  
+    box-shadow: 3px 2px 5px 6px rgba(0, 0, 0, 0.1);
+    &:hover{
+        border: 2px solid black;
+        box-shadow: 3px 2px 5px 6px yellowgreen;
+    }
+}
+.quote img{
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    box-shadow: 1px 2px 5px 11px rgba(0, 0, 0, 0.3);
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+.btn-sec{
+    background-color: $text-dark;
+    color: $white;
+    padding: .5rem 2rem; 
+    border: 0;
+    margin:0 auto;
+    box-shadow: 3px 4px 5px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 2rem;
+    &:hover{
+        border: 2px solid black;
+        box-shadow: 3px 2px 5px 6px yellowgreen;
+    }
+}
+.quote h3{
+    font-size: 2rem;
+    padding: 1rem;
+    color: $text-dark;
+    font-weight: 500;
+}
+.mini-container{
+    display: grid;
+    grid-template-columns:2fr 2fr;
+    gap: 2rem;
+}
+.about {
+    background-color: $background-light;
+}
+.about h2{
+    text-align: left;
+}
+.right img{
+    border-radius: 1rem;
+    width: 90%;
+    height: 100%;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+.founders .flex-30{
+    border: 1px solid $black;
+    padding: 1rem;
+    border-radius: .3rem;
+}
+.founders .flex-30 img{
+    width: 100%;
+    &:hover{
+        transform: scale(1.1);
+        box-shadow: 2px 3px 3px 6px $background-light;
+    }
+}
+.founders i{
+    color: rgb(114, 101, 27);
+    padding: 1rem 1rem;
+    font-size: 1.3rem;
+}
+.founders {
+    text-align: center;
+}
+.reviews .flex-30{
+    border: 1px solid $black;
+    padding: 1rem;
+    border-radius: .3rem;
+    box-shadow: 2px 6px 9px 8px lightgray;
+    
+}
+.reviews .flex-30 iframe{
+    width: 100%;
+    &:hover{
+        transform: scale(1.1);
+        box-shadow: 2px 3px 3px 6px $background-light;
+    }
+}
+.footer h4{
+    margin-top: 0;
+    color: $white;
+    font-size: 1.4rem;
+    padding: .4rem 0;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.footer li{
+    color: $white;
+    padding: .2rem 0;
+    font-size: 1rem;
+}
+.footer li a{
+    color: $white;
+    padding: .2rem 0;
+    font-size: 1rem;
+}
+.align-start{
+    align-items: flex-start;
+}
+.footer i {
+    margin-top: 1.4rem;
+    margin-right: .2rem;
+    color: $white;
+    padding: .2rem;
+    border-radius: 50%;
+}
+footer{
+    background-color: $footer-background;
+    color: white;
+    padding: 2rem 1rem;
+}
+
+h5 strong{
+    font-weight: 700;
+}
+.bottom{
+    text-align: center;
+    margin-top: 2rem;
+}
+.footer p{
+    color: $white;
+    padding: 0;
+}
+.footer .flex-30 , .footer .flex-20{
+   text-align: left;
+}
+.footer strong{
+    font-size: 2rem;
+}

@@ -1,0 +1,47 @@
+.container{
+    max-width: 1200px;
+    padding: 2rem 2rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3 , 2fr);
+    gap: 3rem;
+}
+.hero-team{
+    background: linear-gradient(to right, rgba(0, 0, 0, 1),rgba(0, 0, 0, 0.3)) , url(../media/hero-bg.jpg) 50% 50%;
+    background-size: cover;
+    padding: 7rem 5rem;
+}
+.hero-team h1{
+    font-size: 3rem;
+    padding: 1rem 1rem;
+    color: $white;
+}
+.box{
+    text-align: center;
+    padding: 1rem 1rem;
+    border: 1px solid $text-dark;
+    box-sizing: content-box;
+    &:hover{
+        transform: scale(1.2);
+        box-shadow: 1px 2px 2px 8px $btn-background;
+    }
+}
+.box img{
+    width: 100%;
+    height: 80%;
+    filter: grayscale(100%);
+    &:hover{
+        filter: grayscale(0);
+    }
+}
+.box h3{
+    font-size: 1.5rem;
+    color: $text-light;
+    padding: -4rem 0;
+}
+.box h5{
+    font-size: 1rem;
+    color: $btn-background;
+    font-style: italic;
+}
+
